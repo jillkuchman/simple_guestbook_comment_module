@@ -1,0 +1,5 @@
+name = Simple Guestbook Comment
+description = Removes the subject field in the comment form of the Welcome Guestbook.
+package = Epicodus Examples
+core = 7.x
+files[] = simple_guestbook_comment.module
