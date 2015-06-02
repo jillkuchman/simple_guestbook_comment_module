@@ -8,8 +8,8 @@
  */
 
 function simple_guestbook_comment_form_alter(&$form, &$form_state, $form_id){
-
     if ($form_id == 'comment_node_page_form') {
-        $form['subject'] = FALSE;
+    	// Removes access to the form subject input 
+        $form['subject']['#access'] = 0;
     }
 }
